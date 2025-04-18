@@ -1,0 +1,23 @@
+import * as React from "react";
+
+import { useTranslation } from "react-i18next";
+
+function Introduction() {
+  const { t } = useTranslation();
+
+  return (
+    <div className="h-screen relative">
+      <div className="bg-[url(src/assets/top_section1.png)] bg-center bg-cover w-full h-full"></div>
+      <div className="absolute bottom-[40px] w-full text-center">
+        <h2 className="font-brasilia text-white text-7xl mb-[40px]">
+          {t("introNames")}
+        </h2>
+        <h3 className="font-display text-white text-4xl p-6 border-t-1 border-b-1 inline-block">
+          {t("introDate")}
+        </h3>
+      </div>
+    </div>
+  );
+}
+
+export default Introduction;
