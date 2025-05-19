@@ -6,7 +6,7 @@ function Header() {
   const { t } = useTranslation();
 
   return (
-    <header className="fixed w-full z-999">
+    <header className="fixed w-full z-999 bg-linear-to-t from-gray-50/5 to-gray-950">
       <nav className="mx-auto flex max-w-7xl items-center justify-center p-6">
         <div className="flex flex-row items-center gap-10 text-white">
           <div className="font-display">{t("headerMenuItem1")}</div>

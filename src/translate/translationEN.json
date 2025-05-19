@@ -32,7 +32,57 @@
   "travelSectionTitle": "Travel & Accomodation",
   "travelSectionSubTitle": "Travel",
   "travelSectionStayTitle": "Where to stay?",
-  "travelSectionStayDescription": "Where to stay?",
+  "travelSectionStayDescription": "If you need a place to stay, Coimbra have a lot of choice to choose from. We recommend the downtown area, as there are a lot of restaurants and bars to have a drink. In our wedding nigth we will stay at the NH Coimbra Dona Ines.",
+  "travelSectionTransportTitle": "How to get there",
+  "travelSectionTransportDescription": "If you arrive in Portugal at Lisbon or Porto, you can always catch a train or bus that stops in Coimbra. The best way to move around is by car, but you can easily get a taxi/Uber on the train and bus stations to the hotel where you are staying. If you are taking the train, choose the high speed train or teh intercity ones, or it takes a full day to get there in a regional train.",
+  "travelSectionTransportLink1": "You can get the train tickets here:",
+  "travelSectionTransportLink2": "You can get the bus tickets here:",
+  "faqSectionTitle": "Frequent sections",
+  "faqSectionSubTitle": "Other",
+  "faqs": [
+    {
+      "question": "What date should I RSVP by?",
+      "answer": "Please RSVP by 20 of July."
+    },
+    {
+      "question": "What's the best airport to use to arrive in Portugal?",
+      "answer": "You can arrive in Portugal through Lisbon or Porto airports. Porto airport (OPO) is the closest airport. However, they have a limited number of flights per day, so you might have better options through Lisbon."
+    },
+    {
+      "question": "What are the addresses of the wedding ceremony and reception venues?",
+      "answer": "The ceremony and reception will take place at the same venue. Our venue's address is Outeiro do Mondego, 3140-563 Tentúgal, Portugal. You can use this link to view the location in Google Maps. Once you arrive, you'll see signage directing you to the back patio where the ceremony will take place.",
+      "link": "https://www.google.com/maps/place/Outeiro+do+Mondego,+Eventos,+Restaura%C3%A7%C3%A3o+e+Servi%C3%A7os,+Lda./@40.2158058,-8.6055817,17z/data=!3m1!4b1!4m6!3m5!1s0xd22516da993bf69:0x21e3c112beeda16c!8m2!3d40.2158058!4d-8.6030014!16s%2Fg%2F11b75pct3s?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D",
+      "linkName": "Google maps directions"
+    },
+    {
+      "question": "What's the easiest way to get to and from our wedding venue(s)?",
+      "answer": "You will need to find transport on the start of the day to get to the venue or to the breakfast. You can easily get a taxi or an Uber form the city center. If you arrive at the Groom / Bride's house for breakfast, it is very likely that we can get you a ride to the venue afterwards. We will be providing shuttle service between the venue and the city center at teh end of the day. After the party, the shuttle will be transporting guests back to the city center at specific times (times to be defined)."
+    },
+    {
+      "question": "Is there parking available near our wedding venue?",
+      "answer": "The venue has 2 car parks for guests at the entrance."
+    },
+    {
+      "question": "Will our wedding be indoors or outdoors?",
+      "answer": "Our ceremony will be outdoors in the garden, while cocktail hour and the reception will take place indoors. Guests will walk to the garden on paved pathways, but will need to step on grass briefly to take their seats."
+    },
+    {
+      "question": "Will our wedding be indoors or outdoors?",
+      "answer": "Our ceremony will be outdoors in the garden, while cocktail hour and the reception will take place indoors. Guests will walk to the garden on paved pathways, but will need to step on grass briefly to take their seats."
+    },
+    {
+      "question": "What's the dress code for our wedding?",
+      "answer": "faq title 1"
+    },
+    {
+      "question": "Are there any colors or styles you'd prefer me to wear?",
+      "answer": "You can wear any color in any shade that you like, as we'd like for our guests to be confortable. For the ladies, we kindly ask to refrain yourselves of wearing white or any white shades on the day."
+    },
+    {
+      "question": "What is the weather and climate like in the area?",
+      "answer": "Coimbra summers are hot during the day and might get chill at night, so we recommend a light wrap to cover bare shoulders and sunglasses for the outdoor ceremony."
+    }
+  ],
   "accessibility": {
     "homepageHeader": "Diana and João's wedding website",
     "imgTopSectionAlt": "Diana and João's picture"

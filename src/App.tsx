@@ -5,6 +5,7 @@ import Introduction from "./sections/Introduction";
 import Timeline from "./sections/Timeline";
 import AboutUs from "./sections/AboutUs";
 import Travel from "./sections/Travel";
+import FAQ from "./sections/FAQ";
 
 function App() {
   const { t } = useTranslation();
@@ -16,6 +17,7 @@ function App() {
       <Timeline />
       <AboutUs />
       <Travel />
+      <FAQ />
     </div>
   );
 }
