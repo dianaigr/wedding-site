@@ -1,12 +1,10 @@
-import * as React from "react";
-
 import { useTranslation } from "react-i18next";
 
 function Travel() {
   const { t } = useTranslation();
 
   return (
-    <div className="w-full max-w-7xl m-auto">
+    <div id="travel" className="w-full max-w-7xl m-auto">
       <div className="text-center mt-[80px] mb-[40px]">
         <span className="font-display text-lg text-grey-900 mb-[20px] block">
           {t("travelSectionSubTitle")}

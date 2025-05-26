@@ -1,5 +1,3 @@
-import * as React from "react";
-
 import { useTranslation } from "react-i18next";
 
 import Collapsible from "../components/Collapsible";
@@ -12,7 +10,7 @@ function FAQ() {
   // https://www.coimbraportugaltourism.com/
 
   return (
-    <div className="w-full max-w-7xl m-auto">
+    <div id="other" className="w-full max-w-7xl m-auto">
       <div className="text-center mt-[80px] mb-[40px]">
         <span className="font-display text-lg text-grey-900 mb-[20px] block">
           {t("faqSectionSubTitle")}

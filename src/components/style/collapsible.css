@@ -1,0 +1,20 @@
+.collapsible .collapsible-button {
+  cursor: pointer;
+}
+
+.collapsible .collapsible-button::after {
+  content: url("../../assets/arrow-down.svg");
+  display: inline-block;
+  vertical-align: middle;
+  transition: transform 1s ease 0ms;
+  width: 20px;
+  height: 20px;
+}
+
+.collapsible.open .collapsible-button::after {
+  transform: rotate(180deg);
+}
+
+.collapsible.open .collapsible-content{
+  margin-top: 10px;
+}
