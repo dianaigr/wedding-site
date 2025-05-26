@@ -5,7 +5,7 @@ function Introduction() {
 
   return (
     <div className="max-h-[600px] sm:max-h-full h-screen relative">
-      <div className="bg-[url(src/assets/top_section2.png)] bg-center bg-cover w-full h-full"></div>
+      <div className="bg-[url(/assets/top_section2.png)] bg-center bg-cover w-full h-full"></div>
       <div className="absolute bottom-[40px] w-full text-center">
         <h2 className="font-brasilia text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-[40px]">
           {t("introNames")}
