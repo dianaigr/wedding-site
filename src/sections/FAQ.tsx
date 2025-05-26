@@ -2,6 +2,13 @@ import { useTranslation } from "react-i18next";
 
 import Collapsible from "../components/Collapsible";
 
+type FAQ = {
+  question: string;
+  answer: string;
+  link?: string;
+  linkName?: string;
+}
+
 function FAQ() {
   const { t } = useTranslation();
 
@@ -22,7 +29,7 @@ function FAQ() {
           <img src="src/assets/Heart.svg" alt="" className="inline-block" />
         </span>
 
-        {faqs.map(faq => {
+        {(faqs as Array<FAQ>).map(faq => {
           return (
             <Collapsible
               label={faq.question}
