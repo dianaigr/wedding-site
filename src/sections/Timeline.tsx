@@ -13,7 +13,7 @@ function Timeline() {
           {t("eventSectionTitle")}
         </h2>
         <span className="separation mr-auto ml-auto mt-[35px] mb-[35px] block">
-          <img src="src/assets/Heart.svg" alt="" className="inline-block" />
+          <img src="@assets/Heart.svg" alt="" className="inline-block" />
         </span>
 
         <div className="block sm:grid sm:grid-cols-2 mb-[35px]">

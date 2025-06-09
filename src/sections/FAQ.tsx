@@ -26,7 +26,7 @@ function FAQ() {
           {t("faqSectionTitle")}
         </h2>
         <span className="separation mr-auto ml-auto mt-[35px] mb-[35px] block">
-          <img src="src/assets/Heart.svg" alt="" className="inline-block" />
+          <img src="@assets/Heart.svg" alt="" className="inline-block" />
         </span>
 
         {(faqs as Array<FAQ>).map(faq => {

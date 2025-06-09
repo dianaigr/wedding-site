@@ -13,7 +13,7 @@ function Travel() {
           {t("travelSectionTitle")}
         </h2>
         <span className="separation mr-auto ml-auto mt-[35px] mb-[35px] block">
-          <img src="src/assets/Heart.svg" alt="" className="inline-block" />
+          <img src="@assets/Heart.svg" alt="" className="inline-block" />
         </span>
 
         <div className="block sm:grid sm:grid-cols-2">
@@ -25,11 +25,11 @@ function Travel() {
               {t("travelSectionStayDescription")}
             </span>
           </div>
-          <div className="bg-[url(src/assets/coimbra-portugal.jpg)] bg-center bg-cover h-[250px] sm:h-full" />
+          <div className="bg-[url(@assets/coimbra-portugal.jpg)] bg-center bg-cover h-[250px] sm:h-full" />
         </div>
 
         <div className="block sm:grid sm:grid-cols-2 mb-[35px]">
-          <div className="bg-[url(src/assets/coimbra-portugal.jpg)] bg-center bg-cover" />
+          <div className="bg-[url(@assets/coimbra-portugal.jpg)] bg-center bg-cover" />
           <div className="text-left p-[40px] bg-gray-100">
             <span className="font-display block text-2xl mb-[8px]">
               {t("travelSectionTransportTitle")}

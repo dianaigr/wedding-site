@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("src/assets/fonts/BrasiliaDelight.woff2") format("woff2");
+  src: url("fonts/BrasiliaDelight.woff2") format("woff2");
 }
 
 @theme {

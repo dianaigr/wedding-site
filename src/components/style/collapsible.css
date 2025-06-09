@@ -3,7 +3,7 @@
 }
 
 .collapsible .collapsible-button::after {
-  content: url("../../assets/arrow-down.svg");
+  content: url("@assets/arrow-down.svg");
   display: inline-block;
   vertical-align: middle;
   transition: transform 1s ease 0ms;
