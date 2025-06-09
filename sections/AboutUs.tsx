@@ -26,7 +26,7 @@ function AboutUs() {
             </span>
           </div>
 
-          <div className="bg-[url(src/assets/about.jpg)] bg-center bg-cover h-[330px] sm:h-full" />
+          <div className="bg-[url(@assets/about.jpg)] bg-center bg-cover h-[330px] sm:h-full" />
 
           <div className="text-center sm:text-left p-[40px] bg-gray-100">
             <span className="font-display block text-2xl mb-[8px]">
