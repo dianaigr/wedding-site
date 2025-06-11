@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import Heart from "@assets/Heart.svg"
 
 function AboutUs() {
   const { t } = useTranslation();
@@ -13,7 +14,7 @@ function AboutUs() {
           {t("aboutSectionTitle")}
         </h2>
         <span className="separation mr-auto ml-auto mt-[35px] mb-[35px] block">
-          <img src="@assets/Heart.svg" alt="" className="inline-block" />
+          <img src={Heart} alt="" className="inline-block" />
         </span>
 
         <div className="block sm:grid sm:grid-cols-3 mb-[35px] min-h-[330px]">

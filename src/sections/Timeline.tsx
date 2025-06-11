@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import Heart from "@assets/Heart.svg"
 
 function Timeline() {
   const { t } = useTranslation();
@@ -13,11 +14,11 @@ function Timeline() {
           {t("eventSectionTitle")}
         </h2>
         <span className="separation mr-auto ml-auto mt-[35px] mb-[35px] block">
-          <img src="@assets/Heart.svg" alt="" className="inline-block" />
+          <img src={Heart} alt="" className="inline-block" />
         </span>
 
         <div className="block sm:grid sm:grid-cols-2 mb-[35px]">
-          <div className="text-center sm:text-right sm:pr-[20px]">
+          <div className="text-center sm:text-right">
             <span className="block font-display text-green-900 text-2xl">
               {t("eventBreakfastTitle")}
             </span>
@@ -33,7 +34,7 @@ function Timeline() {
 
         <div className="block sm:grid sm:grid-cols-2 mb-[35px]">
           <div className="" />
-          <div className="text-center sm:text-left sm:pl-[20px]">
+          <div className="text-center sm:text-left">
             <span className="block font-display text-green-900 text-2xl">
               {t("eventWeddingTitle")}
             </span>

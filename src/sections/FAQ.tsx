@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import Heart from "@assets/Heart.svg"
 
 import Collapsible from "../components/Collapsible";
 
@@ -26,7 +27,7 @@ function FAQ() {
           {t("faqSectionTitle")}
         </h2>
         <span className="separation mr-auto ml-auto mt-[35px] mb-[35px] block">
-          <img src="@assets/Heart.svg" alt="" className="inline-block" />
+          <img src={Heart} alt="" className="inline-block" />
         </span>
 
         {(faqs as Array<FAQ>).map(faq => {
