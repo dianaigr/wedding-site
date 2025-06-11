@@ -9,6 +9,7 @@ function Introduction() {
       <div className="absolute bottom-[40px] w-full text-center">
         <h2 className="font-brasilia text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-[40px]">
           {t("introNames")}
+          test deploy
         </h2>
         <h3 className="font-display text-white text-2xl sm:text-3xl md:text-4xl p-3 sm:p-6 border-t-1 border-b-1 inline-block">
           {t("introDate")}
